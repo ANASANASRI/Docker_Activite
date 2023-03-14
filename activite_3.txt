@@ -1,0 +1,9 @@
+1. docker pull nginx
+
+2. Exposing external port
+        $ docker run --name some-nginx -d -p 8080:80 some-content-nginx
+        $(docker run --name anas -d -p 8080:80 nginx      )
+            -d (--detach {detacher lactvite de journalisation})
+            -p (--publish)
+
+3. then hit the http://localhost:8080/
