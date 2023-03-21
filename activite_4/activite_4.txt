@@ -1,0 +1,13 @@
+1. docker info    {"les information de docker"}
+2. dotnet new razor -o monApplicationCore   {"creer un dossier monApplicationCore de type pages 'un projet doteNet'"}
+3. cd .\monApplicationCore\
+4. dotnet run
+5. {"go to https://localhost:7196/  or https://localhost:7196 (this links will show up directliy after docker run)"}
+6. {"add docker file in /monApplicationCore/ (see dockerfile)"}
+7. docker build -t anas/aspnetcore-imagev6
+8. ( push )OR( runiha 3andk )
+  run 3andk :
+         > docker run -ti -p 5080:80 anas/aspnetcore-imagev6
+  push      : 
+         > docker login 
+         > docker push anas/aspnetcore-imagev6
